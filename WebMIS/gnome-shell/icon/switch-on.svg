@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg4686" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="switch-off.svg" inkscape:version="0.92.1 r"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="41.6px" height="19.2px"
+	 viewBox="0 0 41.6 19.2" enable-background="new 0 0 41.6 19.2" xml:space="preserve">
+<sodipodi:namedview  id="base" inkscape:cx="-41.603549" inkscape:zoom="5.6" showgrid="false" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:cy="4.9175172" inkscape:window-maximized="1" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:window-width="1600" inkscape:window-height="828" inkscape:window-x="0" inkscape:window-y="0" inkscape:current-layer="layer1" fit-margin-bottom="0" fit-margin-right="0" inkscape:document-units="px" fit-margin-top="0" fit-margin-left="0">
+	</sodipodi:namedview>
+<g id="layer1_1_" transform="translate(-507.85714,-508.93363)" inkscape:label="Layer 1" inkscape:groupmode="layer">
+	<g id="switch-active-dark" transform="translate(141.85711,-323.42855)" inkscape:label="#g5966">
+		<g id="g5834">
+			<path id="rect6975" fill="#6FB737" d="M375.6,832.363H398c5.302,0,9.6,4.299,9.6,9.6l0,0c0,5.303-4.298,9.6-9.6,9.6h-22.4
+				c-5.302,0-9.6-4.297-9.6-9.6l0,0C366,836.661,370.298,832.363,375.6,832.363z"/>
+			<circle id="circle6979" fill="#FFFFFF" cx="398" cy="841.962" r="7"/>
+			<path id="path7037" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccc" fill="#FFFFFF" d="M372.4,842.689
+				l1.455-1.453l1.454,1.818l3.637-5.092l1.454,1.455l-5.091,6.545L372.4,842.689z"/>
+		</g>
+	</g>
+</g>
+</svg>

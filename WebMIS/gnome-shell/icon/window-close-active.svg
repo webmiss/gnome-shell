@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg7384" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="window-close-hover.svg" inkscape:version="0.91 r13725"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<sodipodi:namedview  id="namedview15" inkscape:cy="15.765853" inkscape:cx="-10.75122" inkscape:zoom="12.8125" showgrid="true" gridtolerance="10" pagecolor="#ffffff" bordercolor="#666666" guidetolerance="10" borderopacity="1" objecttolerance="10" inkscape:pageshadow="2" inkscape:pageopacity="0" inkscape:window-width="1280" inkscape:window-height="734" inkscape:window-x="0" inkscape:window-y="0" inkscape:current-layer="svg7384" inkscape:window-maximized="1">
+	<inkscape:grid  enabled="true" visible="true" id="grid2992" type="xygrid" empspacing="5" snapvisiblegridlinesonly="true">
+		</inkscape:grid>
+</sodipodi:namedview>
+<title  id="title9167">Gnome Symbolic Icon Theme</title>
+<circle id="path2994" fill="#FF6600" cx="16" cy="16" r="16"/>
+<circle id="path2994-9" fill="#FFFFFF" fill-opacity="0.15" cx="16" cy="16" r="16"/>
+<g id="layer12" transform="translate(-52,-510)">
+	<g id="layer4-4-1" transform="translate(19,-242)">
+		<path id="path10839-9" inkscape:connector-curvature="0" fill="#FFFFFF" d="M45,764h1c0.01,0,0.021,0,0.031,0
+			c0.255,0.011,0.51,0.128,0.688,0.313L49,766.594l2.313-2.281c0.266-0.23,0.447-0.306,0.688-0.313h1v1
+			c0,0.287-0.034,0.551-0.25,0.75l-2.281,2.281l2.25,2.25C52.906,770.469,53,770.734,53,771v1h-1c-0.266,0-0.531-0.094-0.719-0.281
+			L49,769.438l-2.281,2.281C46.531,771.906,46.265,772,46,772h-1v-1c0-0.266,0.093-0.531,0.281-0.719l2.281-2.25l-2.281-2.281
+			c-0.211-0.195-0.303-0.469-0.281-0.75V764z"/>
+	</g>
+</g>
+</svg>
