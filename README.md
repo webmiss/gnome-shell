@@ -7,8 +7,7 @@ WebMIS is just a development idea.<br>
 pacman -S wqy-zenhei wqy-microhei wqy-bitmapfont wqy-microhei-lite
 
 # Themes
-mkdir ~/.themes
-git clone https://github.com/webmiss/gnome-shell.git ~/.themes
+git clone https://github.com/webmiss/gnome-shell.git ~/
 
 ```
 
