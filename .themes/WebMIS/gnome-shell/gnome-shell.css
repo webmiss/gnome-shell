@@ -1,7 +1,7 @@
 /* 默认字体和大小 */
 stage {
-	font-family: "文泉驿微米黑";
-	font-size: 10pt;
+	font-family: "微软雅黑 Regular";
+	font-size: 13pt;
 	color: white;
 }
 /* 头部透明度,圆角 */
@@ -181,12 +181,21 @@ StEntry:focus {
 
 /* 声音调节 */
 .slider {
+	/* 3.28 */
 	-slider-height: 3px;
 	-slider-background-color: rgba(236, 239, 241, 0.15);
 	-slider-border-color: transparent;
 	-slider-active-background-color: #6FB737;
 	-slider-active-border-color: transparent;
 	-slider-border-width: 0;
+	/* 3.30 */
+	-barlevel-height: 3px;
+	-barlevel-background-color: rgba(236, 239, 241, 0.15);
+	-barlevel-border-color: transparent;
+	-barlevel-active-background-color: #6FB737;
+	-barlevel-active-border-color: transparent;
+	-barlevel-border-width: 0;
+
 	-slider-handle-radius: 8px;
 }
 /* 菜单选择 */
@@ -213,14 +222,15 @@ StEntry:focus {
 	color: #E6E6E6;
 	border-radius: 32px;
 	padding: 13px;
-	border: #666 2px solid;
-	background-color: rgba(0,0,0,0.5);
+	border: #000 2px solid;
+	background-color: #000;
 }
 .system-menu-action:hover,
 .system-menu-action:focus {
 	color: #FFF;
 	padding: 13px;
 	border: #6FB737 2px solid;
+	background-color: #6FB737;
 }
 
 /* 按钮 */
