@@ -12,5 +12,6 @@ git clone https://github.com/webmiss/gnome-shell.git ~/
 ```
 
 # View
-![WebMIS theme](webmis1.jpg?raw=true)<br>
-![WebMIS theme](webmis2.jpg?raw=true)<br>
+![WebMIS theme](webmis1.png?raw=true)<br>
+![WebMIS theme](webmis2.png?raw=true)<br>
+![WebMIS theme](webmis3.png?raw=true)<br>
