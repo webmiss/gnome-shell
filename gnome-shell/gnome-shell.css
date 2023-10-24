@@ -1,0 +1,241 @@
+/* 公共 */
+stage {
+	font-size: 11pt;
+	color: #C3C7D1;
+}
+
+/* 头部任务栏 */
+#panel {
+	background-color: rgba(0,0,0,0.6);
+	font-weight: bold;
+}
+.panel-corner {
+	-panel-corner-radius: 0px;
+	-panel-corner-background-color: black;
+	-panel-corner-border-width: 2px;
+	-panel-corner-border-color: transparent;
+}
+/* 右上角图标背景 */
+.panel-button:active,
+.panel-button:overview,
+.panel-button:focus {
+	color: white;
+	border-radius: 8px;
+}
+
+/* 开关选择器 */
+.toggle-switch {
+  color: inherit;
+  width: 64px;
+  height: 24px;
+  background-size: contain;
+  background-image: url("icon/toggle-off.svg");
+}
+.toggle-switch:checked {
+  background-image: url("icon/toggle-on.svg");
+}
+
+/* 中间窗口 */
+.window-close {
+	background-color: rgba(26, 25, 29, 0.95);
+  color: white;
+  border-radius: 21px;
+  padding: 3px;
+  height: 30px;
+  width: 30px;
+  box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 300ms;
+}
+.window-close:hover {
+	background-color: #595;
+}
+.window-close:active {
+	color: rgba(195, 199, 209, 0.8);
+  background-color: #FF6600;
+}
+.window-caption {
+	padding: 4px 8px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+/* 应用 */
+#panelActivities * {
+	margin: 0px;
+}
+.show-apps .show-apps-icon {
+	border: none;
+	background-image: url("icon/show-apps.svg");
+	background-size: contain;
+	color: transparent;
+	-st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.14);
+}
+.show-apps:hover .show-apps-icon,
+.show-apps:active .show-apps-icon,
+.show-apps:checked .show-apps-icon,
+.show-apps:focus .show-apps-icon {
+	color: transparent;
+	background-image: url("icon/show-apps-active.svg");
+	-st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.22);
+	transition-duration: 0.2s;
+}
+.app-well-app-running-dot{
+	width: 10px;
+	height: 3px;
+	background-color: #595;
+	margin-bottom: 2px;
+}
+
+/* 搜索框 */
+.lg-dialog StEntry,
+StEntry {
+  min-height: 32px;
+	border-width: 0;
+	border-color: transparent;
+	box-shadow: inset 0 -1px rgba(204, 204, 204, 0.3);
+}
+StEntry:hover {
+  box-shadow: inset 0 -1px #CCC;
+}
+StEntry:focus {
+  border-color: transparent;
+  box-shadow: inset 0 -2px #595;
+}
+
+/* 信息框 */
+.modal-dialog {
+	border-radius: 0px;
+	background-color: rgba(0,0,0,0.8);
+	border: rgba(255,255,255,0.3) 1px solid;
+	border-radius: 8px;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
+
+/* 提示框 */
+.popup-menu-boxpointer,
+.candidate-popup-boxpointer {
+	-arrow-border-radius: 8px;
+	-arrow-background-color: #191919;
+	-arrow-border-width: 1px;
+	-arrow-border-color: #000;
+	-arrow-base: 24px;
+	-arrow-rise: 10px;
+}
+.popup-menu-content, .candidate-popup-content {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #191919;
+  color: #CCC;
+}
+
+/* 日期 */
+.calendar-day-base:hover, .calendar-day-base:focus {
+	background-color: rgba(236, 239, 241, 0.07);
+}
+.calendar-day-base:active {
+	color: #FFFFFF;
+	background-color: #595;
+}
+.calendar .calendar-today:selected, .calendar .calendar-today:selected:hover, .calendar .calendar-today:selected:focus {
+  background-color: #595;
+}
+
+/* IBus */
+.candidate-box {
+	border-radius: 2px;
+}
+.candidate-box:hover {
+	background-color: rgba(255,255,255,0.2);
+	color: #CCC;
+}
+.candidate-box:active, .candidate-box:selected {
+	background-color: #595;
+	color: #FFFFFF;
+}
+
+/* 声音调节 */
+.slider {
+	-barlevel-height: 3px;
+	-barlevel-active-background-color: #595;
+}
+.slider, .slider:hover, .slider:active {
+  color: #595;
+}
+/* 功能按钮 */
+.quick-toggle {
+	border-radius: 99px;
+}
+.quick-toggle:checked {
+	background-gradient-start: #a47db4 !important;
+	background-gradient-end: #595 !important;
+	background-gradient-direction: horizontal;
+	color: #fefefe;
+	text-shadow: none;
+}
+.quick-menu-toggle .quick-toggle-arrow:checked {
+	background-color: #595;
+	color: #fefefe;
+	border-width: 0;
+}
+.quick-menu-toggle .quick-toggle:ltr {
+	border-radius: 99px 0 0 99px;
+}
+.quick-menu-toggle .quick-toggle:rtl {
+	border-radius: 0 99px 99px 0;
+}
+.quick-toggle-menu .header .icon.active {
+	background-color: #595;
+}
+
+/* 按钮 */
+.button, .app-folder-dialog .edit-folder-button, .quick-settings-system-item .icon-button {
+	color: #C3C7D1;
+  background-color: #323438;
+  box-shadow: none;
+}
+.button:hover, .app-folder-dialog .edit-folder-button:hover, .quick-settings-system-item .icon-button:hover {
+	color: #FFF;
+	background-color: #595;
+}
+
+/* Ctrl+Alt+Delete */
+.modal-dialog-linked-button {
+	color: #595;
+	background-color: transparent;
+	border-color: transparent;
+	border: none;
+}
+.modal-dialog-linked-button:hover {
+	color: #FFF;
+	background-color: #595;
+	box-shadow: 0 0 transparent;
+}
+.modal-dialog-linked-button:first-child {
+	border-radius: 0 0 0 3px;
+}
+.modal-dialog-linked-button:last-child {
+	border-right-width: 0;
+	border-radius: 0 0 3px 0;
+}
+.modal-dialog-linked-button:first-child:last-child {
+	border-right-width: 0;
+	border-radius: 0 0 3px 3px;
+}
+
+/* Alt+Tab */
+.switcher-list {
+	background: rgba(0,0,0,0.7);
+	border: #000 1px solid;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+	padding: 20px;
+}
+.switcher-list .item-box:outlined {
+	padding: 6px;
+	border: #595 1px solid;
+}
+.switcher-list .item-box:selected {
+	background: #595;
+}
+
